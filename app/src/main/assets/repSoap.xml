@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ns="http://example.com/soap-service">
+    <soap:Header>
+        <!-- En-tête SOAP (optionnel) -->
+    </soap:Header>
+    <soap:Body>
+        <ns:Response>
+            <!-- Corps de la réponse SOAP -->
+            <ns:Result>OK</ns:Result>
+            <ns:Message>Bienvenue sur notre service SOAP</ns:Message>
+            <ns:Data>
+                <ns:Item>
+                    <ns:ID>1</ns:ID>
+                    <ns:Name>Produit 1</ns:Name>
+                    <ns:Price>19.99</ns:Price>
+                </ns:Item>
+                <ns:Item>
+                    <ns:ID>2</ns:ID>
+                    <ns:Name>Produit 2</ns:Name>
+                    <ns:Price>24.99</ns:Price>
+                </ns:Item>
+            </ns:Data>
+        </ns:Response>
+    </soap:Body>
+</soap:Envelope>

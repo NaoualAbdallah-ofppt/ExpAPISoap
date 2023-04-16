@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<items>
+    <item id="it1">
+        <title>Titre 1</title>
+        <description>Description 1</description>
+    </item>
+    <item id="it2"><title>Titre 2</title><description>Description 2</description></item></items>
